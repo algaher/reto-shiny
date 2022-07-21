@@ -4,6 +4,5 @@ install_if_missing <- function(p) {
     install.packages(p)}
 }
 invisible(sapply(my_packages, install_if_missing))
-
-library(sunburstR)
-library(tidyverse)
+#install.packages("devtools")
+devtools::install_github("timelyportfolio/sunburstR")
