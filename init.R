@@ -4,3 +4,7 @@ install_if_missing <- function(p) {
     install.packages(p)}
 }
 invisible(sapply(my_packages, install_if_missing))
+
+library(shinydashboard)
+library(sunburstR)
+library(tidyverse)
